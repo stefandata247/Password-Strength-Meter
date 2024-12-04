@@ -1,0 +1,59 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("https://media.istockphoto.com/id/2085147043/fr/photo/image-darri%C3%A8re-plan-de-la-technologie-syst%C3%A8me-de-verrouillage-des-donn%C3%A9es-protection-du.jpg?s=1024x1024&w=is&k=20&c=OBQvIosph6IMBn3eRow3vJNRGx-nwnCXpV8XqQ7RgX8=")
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#passwordInput {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#visibilityToggle {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#checkButton {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
